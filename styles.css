@@ -1,0 +1,74 @@
+html {
+  background-image: url(https://cdn5.f-cdn.com/contestentries/365905/11471321/56e5fc2e0e40d_thumb900.jpg);
+  padding: 50px;
+}
+
+
+body {
+
+  background: -moz-linear-gradient(45deg, #b4e391 0%, #61c419 50%, #b4e391 100%);
+  background: -webkit-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%);
+  background: linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%);
+  width: auto;
+  font-family: Georgia;
+}
+
+table,td,th {
+  border: 1px solid black;
+
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  font-weight: bold;
+}
+.heading {
+  font-family: Georgia;
+  margin: 20px;
+  width: auto;
+}
+
+#main-title {
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.picture {
+  margin: 15px;
+  border: 1px solid black;
+  padding: 1px;
+  float: right;
+}
+
+.table {
+  margin: 15px
+}
+
+.paragraph {
+  padding: 15px;
+  width: auto;
+  font-family: Georgia;
+}
+
+form {
+  margin-left: 15px;
+}
+
+footer {
+  text-align: center;
+
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .8em;
+  }
+}
