@@ -1,74 +1,81 @@
 html {
-  background-image: url(https://cdn5.f-cdn.com/contestentries/365905/11471321/56e5fc2e0e40d_thumb900.jpg);
-  padding: 50px;
+  background-image: url("bg_bigsur.jpg");
+  background-size: cover !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
 }
-
 
 body {
-
-  background: -moz-linear-gradient(45deg, #b4e391 0%, #61c419 50%, #b4e391 100%);
-  background: -webkit-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%);
-  background: linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%);
-  width: auto;
-  font-family: Georgia;
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+  font-weight: 100;
+  color: white;
 }
 
-table,td,th {
-  border: 1px solid black;
+.text {
+  font-size: 22px;
+  font
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: translateY(10%);
+  -webkit-transform: translateY(10%);
+  opacity: 1;
+  line-height: 175%;
+}
 
+.name {
+  color: white;
+  font-size: 45px;
+  opacity: 1;
+  padding-bottom: 8px;
+}
+
+.hexagon {
+  position: relative;
+  width: 400px;
+  height: 230.94px;
+  background-color: rgba(191, 85, 236, 0.6);
+  margin: 115.47px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+.hexagon:before, .hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 115.47px solid rgba(191, 85, 236, 0.6);
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 115.47px solid rgba(191, 85, 236, 0.6);
 }
 
 a:link {
-  color: blue;
+  color: white;
+  text-decoration: none;
 }
+
 a:visited {
-  color: red;
+  color: white;
 }
+
 a:hover {
-  font-weight: bold;
-}
-.heading {
-  font-family: Georgia;
-  margin: 20px;
-  width: auto;
-}
-
-#main-title {
-  top: 0px;
-  right: 0px;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
-}
-
-.picture {
-  margin: 15px;
-  border: 1px solid black;
-  padding: 1px;
-  float: right;
-}
-
-.table {
-  margin: 15px
-}
-
-.paragraph {
-  padding: 15px;
-  width: auto;
-  font-family: Georgia;
-}
-
-form {
-  margin-left: 15px;
-}
-
-footer {
-  text-align: center;
-
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    font-size: .8em;
-  }
+  color: rgba(255,255, 255, 0.7);
+  text-decoration: none;
 }
